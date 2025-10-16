@@ -35,7 +35,7 @@ router.put("/:id", async (req, res) =>{
         res.json(student);  
     }catch(error){
         res.status(400).json({ message: error.message });
-    }
+    } 
 });
 
 // Delete student by id DELETE
